@@ -1,0 +1,223 @@
+{
+  "dataset_info": {
+    "name": "Irish Landmarks Dataset",
+    "description": "Images of 6 famous Irish landmarks for deep learning classification",
+    "created_date": "2025-07-15T23:28:45.487684",
+    "version": "1.0"
+  },
+  "landmarks": {
+    "cliffs_of_moher": {
+      "name": "Cliffs of Moher",
+      "location": "County Clare",
+      "search_terms": [
+        "Cliffs of Moher Ireland",
+        "Cliffs Moher tourist",
+        "Cliffs of Moher Atlantic Ocean",
+        "Moher cliffs sunset",
+        "Cliffs of Moher aerial view"
+      ],
+      "target_images": 150
+    },
+    "giants_causeway": {
+      "name": "Giant's Causeway",
+      "location": "County Antrim",
+      "search_terms": [
+        "Giants Causeway Ireland",
+        "Giants Causeway stones",
+        "Giants Causeway hexagonal columns",
+        "Giants Causeway Northern Ireland",
+        "Giants Causeway basalt columns"
+      ],
+      "target_images": 150
+    },
+    "ring_of_kerry": {
+      "name": "Ring of Kerry",
+      "location": "County Kerry",
+      "search_terms": [
+        "Ring of Kerry Ireland",
+        "Kerry landscape Ireland",
+        "Ring of Kerry scenic drive",
+        "Kerry mountains Ireland",
+        "Ring of Kerry coastline"
+      ],
+      "target_images": 150
+    },
+    "dublin_castle": {
+      "name": "Dublin Castle",
+      "location": "Dublin",
+      "search_terms": [
+        "Dublin Castle Ireland",
+        "Dublin Castle courtyard",
+        "Dublin Castle gardens",
+        "Dublin Castle throne room",
+        "Dublin Castle exterior"
+      ],
+      "target_images": 150
+    },
+    "killarney_national_park": {
+      "name": "Killarney National Park",
+      "location": "County Kerry",
+      "search_terms": [
+        "Killarney National Park",
+        "Killarney lakes Ireland",
+        "Killarney mountains Kerry",
+        "Killarney National Park wildlife",
+        "Killarney Muckross House"
+      ],
+      "target_images": 150
+    },
+    "rock_of_cashel": {
+      "name": "Rock of Cashel",
+      "location": "County Tipperary",
+      "search_terms": [
+        "Rock of Cashel Ireland",
+        "Cashel cathedral Ireland",
+        "Rock Cashel Tipperary",
+        "Cashel of the Kings",
+        "Rock of Cashel medieval"
+      ],
+      "target_images": 150
+    }
+  },
+  "scraping_results": {
+    "cliffs_of_moher": {
+      "name": "Cliffs of Moher",
+      "downloaded": 144,
+      "target": 150
+    },
+    "giants_causeway": {
+      "name": "Giant's Causeway",
+      "downloaded": 144,
+      "target": 150
+    },
+    "ring_of_kerry": {
+      "name": "Ring of Kerry",
+      "downloaded": 144,
+      "target": 150
+    },
+    "dublin_castle": {
+      "name": "Dublin Castle",
+      "downloaded": 140,
+      "target": 150
+    },
+    "killarney_national_park": {
+      "name": "Killarney National Park",
+      "downloaded": 141,
+      "target": 150
+    },
+    "rock_of_cashel": {
+      "name": "Rock of Cashel",
+      "downloaded": 145,
+      "target": 150
+    }
+  },
+  "cleaning_results": {
+    "cliffs_of_moher": {
+      "name": "Cliffs of Moher",
+      "valid_images": 144
+    },
+    "giants_causeway": {
+      "name": "Giant's Causeway",
+      "valid_images": 143
+    },
+    "ring_of_kerry": {
+      "name": "Ring of Kerry",
+      "valid_images": 143
+    },
+    "dublin_castle": {
+      "name": "Dublin Castle",
+      "valid_images": 139
+    },
+    "killarney_national_park": {
+      "name": "Killarney National Park",
+      "valid_images": 141
+    },
+    "rock_of_cashel": {
+      "name": "Rock of Cashel",
+      "valid_images": 143
+    }
+  },
+  "preprocessing_results": {
+    "cliffs_of_moher": {
+      "name": "Cliffs of Moher",
+      "processed": 144
+    },
+    "giants_causeway": {
+      "name": "Giant's Causeway",
+      "processed": 143
+    },
+    "ring_of_kerry": {
+      "name": "Ring of Kerry",
+      "processed": 143
+    },
+    "dublin_castle": {
+      "name": "Dublin Castle",
+      "processed": 139
+    },
+    "killarney_national_park": {
+      "name": "Killarney National Park",
+      "processed": 141
+    },
+    "rock_of_cashel": {
+      "name": "Rock of Cashel",
+      "processed": 143
+    }
+  },
+  "split_results": {
+    "cliffs_of_moher": {
+      "name": "Cliffs of Moher",
+      "total": 144,
+      "train": 115,
+      "val": 29
+    },
+    "giants_causeway": {
+      "name": "Giant's Causeway",
+      "total": 143,
+      "train": 114,
+      "val": 29
+    },
+    "ring_of_kerry": {
+      "name": "Ring of Kerry",
+      "total": 143,
+      "train": 114,
+      "val": 29
+    },
+    "dublin_castle": {
+      "name": "Dublin Castle",
+      "total": 139,
+      "train": 111,
+      "val": 28
+    },
+    "killarney_national_park": {
+      "name": "Killarney National Park",
+      "total": 141,
+      "train": 112,
+      "val": 29
+    },
+    "rock_of_cashel": {
+      "name": "Rock of Cashel",
+      "total": 143,
+      "train": 114,
+      "val": 29
+    }
+  },
+  "configuration": {
+    "images_per_landmark": 150,
+    "image_size": [
+      224,
+      224
+    ],
+    "min_image_size": [
+      100,
+      100
+    ],
+    "max_file_size": 10485760,
+    "split_ratio": "80/20 train/validation"
+  },
+  "statistics": {
+    "total_landmarks": 6,
+    "total_images": 853,
+    "total_train": 680,
+    "total_val": 173
+  }
+}

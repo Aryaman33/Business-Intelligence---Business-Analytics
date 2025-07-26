@@ -1,0 +1,32 @@
+{
+  "cliffs_of_moher": {
+    "name": "Cliffs of Moher",
+    "downloaded": 144,
+    "target": 150
+  },
+  "giants_causeway": {
+    "name": "Giant's Causeway",
+    "downloaded": 144,
+    "target": 150
+  },
+  "ring_of_kerry": {
+    "name": "Ring of Kerry",
+    "downloaded": 144,
+    "target": 150
+  },
+  "dublin_castle": {
+    "name": "Dublin Castle",
+    "downloaded": 140,
+    "target": 150
+  },
+  "killarney_national_park": {
+    "name": "Killarney National Park",
+    "downloaded": 141,
+    "target": 150
+  },
+  "rock_of_cashel": {
+    "name": "Rock of Cashel",
+    "downloaded": 145,
+    "target": 150
+  }
+}

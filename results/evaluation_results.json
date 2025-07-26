@@ -1,0 +1,73 @@
+{
+  "performance_summary": {
+    "Overall Performance": {
+      "Accuracy": "0.7850",
+      "Macro Avg Precision": "0.7841",
+      "Macro Avg Recall": "0.7835",
+      "Macro Avg F1-Score": "0.7777",
+      "Total Samples": 200
+    },
+    "Best Performing Classes": {
+      "Giant's Causeway": "0.912",
+      "Cliffs of Moher": "0.907",
+      "Dublin Castle": "0.885"
+    },
+    "Worst Performing Classes": {
+      "Killarney National Park": "0.554",
+      "Ring of Kerry": "0.618",
+      "Rock of Cashel": "0.789"
+    },
+    "Model Strengths": [
+      "Good overall accuracy (75-85%)"
+    ],
+    "Areas for Improvement": [
+      "Overall accuracy could be improved"
+    ]
+  },
+  "overall_accuracy": 0.785,
+  "class_metrics": [
+    {
+      "Class": "Cliffs of Moher",
+      "Precision": 0.8666666666666667,
+      "Recall": 0.9512195121951219,
+      "F1-Score": 0.9069767441860465,
+      "Support": 41
+    },
+    {
+      "Class": "Giant's Causeway",
+      "Precision": 0.9285714285714286,
+      "Recall": 0.896551724137931,
+      "F1-Score": 0.9122807017543859,
+      "Support": 29
+    },
+    {
+      "Class": "Ring of Kerry",
+      "Precision": 0.6538461538461539,
+      "Recall": 0.5862068965517241,
+      "F1-Score": 0.6181818181818182,
+      "Support": 29
+    },
+    {
+      "Class": "Dublin Castle",
+      "Precision": 0.8181818181818182,
+      "Recall": 0.9642857142857143,
+      "F1-Score": 0.8852459016393442,
+      "Support": 28
+    },
+    {
+      "Class": "Killarney National Park",
+      "Precision": 0.5,
+      "Recall": 0.6206896551724138,
+      "F1-Score": 0.5538461538461539,
+      "Support": 29
+    },
+    {
+      "Class": "Rock of Cashel",
+      "Precision": 0.9375,
+      "Recall": 0.6818181818181818,
+      "F1-Score": 0.7894736842105263,
+      "Support": 44
+    }
+  ],
+  "evaluation_date": "2025-07-16T00:10:22.909035"
+}
